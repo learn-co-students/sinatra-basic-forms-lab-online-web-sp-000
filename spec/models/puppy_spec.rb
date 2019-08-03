@@ -1,5 +1,6 @@
 describe 'Puppy class' do
   let!(:puppy) {
+    # binding.pry
     #arity is the number of arguments that a method accepts
     arity = Puppy.instance_method(:initialize).arity
     if arity == 1
