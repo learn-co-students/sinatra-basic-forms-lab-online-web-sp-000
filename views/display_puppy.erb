@@ -1,5 +1,12 @@
-<body>
-  <p>Puppy Name: <%= @name %></p>
-  <p>Puppy Breed: <%= @breed %></p>
-  <p>Puppy Age: <%= @age %> months</p>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pet Adoption Center</title>
+  </head>
+  <body>
+    <h1>Dog for adoption</h1>
+    <div>Puppy Name: <%="#{@name}"%></div>
+    <div>Puppy Breed: <%="#{@breed}"%></div>
+    <div>Puppy Age: <%="#{@age} months old"%></div>
+  </body>
+</html>
