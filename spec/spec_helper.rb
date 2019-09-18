@@ -1,5 +1,5 @@
 ENV["SINATRA_ENV"] = "test"
-require_relative '../config/environment.rb'
+require '/Users/Eric/Development/code/sinatra-basic-forms-lab-online-web-sp-000/config/environment.rb'
 require 'capybara/dsl'
 require 'rack/test'
 require 'capybara/dsl' 
