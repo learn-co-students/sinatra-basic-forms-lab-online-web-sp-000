@@ -1,6 +1,6 @@
 # Sinatra Basic Forms Lab
 
-<img src="https://s3.amazonaws.com/learn-verified/puppies.gif" hspace="10" align="right" width="300">
+<img hspace="10" align="right" width="300">
 
 Your local pet adoption store has asked you to build their new website. First
 and foremost, the store needs a form for their staff to add puppies that are
