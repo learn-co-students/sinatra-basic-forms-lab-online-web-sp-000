@@ -11,7 +11,7 @@ class App < Sinatra::Base
         erb :create_puppy
     end
 
-    post '/puppy' do
+    post '/puppy' do # the post route needs to match the action in the form
         @puppy = Puppy.new(params[:name], params[:breed], params[:age])
 
         erb :display_puppy
