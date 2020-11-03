@@ -18,3 +18,5 @@ class App < Sinatra::Base
   end
 
 end
+
+#test is passing but website isn't accepting
