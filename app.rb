@@ -20,3 +20,4 @@ class App < Sinatra::Base
 end
 
 #test is passing but website isn't accepting
+#added text to hopefully make the submit portion work now
